@@ -1,0 +1,20 @@
+name: Validate theme
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check shell syntax and installer behavior
+        run: |
+          bash -n install.sh tools/render.sh
+          python3 -m unittest discover -s tests -v
+      - name: Check palette and renderer
+        run: |
+          python3 -c 'import tomllib; tomllib.load(open("colors.toml", "rb"))'
+          g++ -std=c++17 -Wall -Wextra -Werror -O2 -o /tmp/osaka-animate tools/animate.cpp

@@ -1,0 +1,9 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept
+Asset type: landscape 16:9 desktop wallpaper for Omarchy theme Osaka Blue Glow.
+Primary request: an old Japanese town at night, very dark, with blue lights glowing in windows of traditional houses and buildings, faint blue street lamps, and the silhouette of a classic Japanese mountain behind the town.
+Scene: a quiet narrow old Japanese street with wooden machiya houses, tiled roofs and subtle traditional architectural details. The street recedes toward a distant graceful conical mountain silhouette, reminiscent of Mount Fuji, distinguishable against a deep midnight sky. No modern skyscrapers. Sparse small windows emit soft azure blue light, a few subdued blue street lamps illuminate tiny portions of the street, with restrained blue reflections on dark stone paving.
+Style: sophisticated cinematic digital matte painting, atmospheric, detailed yet calm, not cartoon. Wide balanced desktop composition with plenty of dark negative space and a readable mountain silhouette.
+Lighting and palette: near-black charcoal navy shadows #020509 and #04080e, restrained azure #00aaff and icy blue glows #a8dfff. Overall very dark, low-key, subtle pools of light, most buildings remain silhouettes. Gentle haze for depth. No bright daylight, no large brilliant lights, no purple or warm orange lighting.
+Constraints: no people, no text, no readable signs, no logos, no watermark, no UI. The mood is peaceful mysterious old Japan at night, not a busy futuristic neon city.
